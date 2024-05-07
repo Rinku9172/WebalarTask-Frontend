@@ -1,0 +1,95 @@
+.alert {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+.alert-container {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+body {
+  /* background-color: aqua; */
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-create {
+  background-color: #020202;
+  color: white;
+}
+
+.btn-create:hover {
+  background-color: #020202;
+  color: white;
+}
+
+.btn-button {
+  background-color: silver;
+  color: black;
+  font-weight: 500;
+}
+
+.btn-button:hover {
+  background-color: silver;
+  color: black;
+  font-weight: 500;
+}
+.btn-add-task {
+  background-color: rgb(66, 57, 57);
+  color: white;
+  border: none;
+}
+
+.btn-add-task:hover {
+  background-color: rgb(66, 57, 57);
+  color: white;
+}
+.card {
+  background-color: rgb(232, 228, 228);
+}
+
+.btn-custom {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.cbtn {
+  color: green;
+}
+.ubtn {
+  color: blue;
+}
+.dbtn {
+  color: red;
+}
